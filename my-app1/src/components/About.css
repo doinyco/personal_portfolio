@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;300&family=Dancing+Script&family=Montserrat:ital,wght@1,100&family=Old+Standard+TT:ital@1&family=Taviraj:wght@200&display=swap');
+
+.main-about {
+    display: flex;
+}  
+.main-about > .navbar-container {
+    position: relative;
+    left: 37%;
+}
+
+
+.about-me {
+    display: flex;
+    position: relative;
+    margin-left: 20%;
+    margin-top: 17%;
+}
+
+.description > p {
+    font-size: 18px;
+    font-family: 'Taviraj', serif;   
+}
+
+
+
+.personal-info > h1 {
+    font-weight: 500;
+    font-size: 25px;
+}
+.personal-info {
+    display: flexbox;
+    
+    margin-left: 10%;
+}
+
+.line{
+    width: 40px;
+    border-bottom: 2.5px solid black;
+    position: absolute;
+}
+
+
+.main-about > .navbar-container {
+    display: flex;
+    position: absolute;
+    left: 69.8%;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+}
+
+.email > img {
+    width: 22px;
+    height: 17px;
+    margin-top: 2.3%;
+    margin-right: 1.6%;
+}
+
+.email > p {
+    color: #606470;
+    font-family: cursive;
+    margin-top: 1.6%;
+}
+
+
+.personal-info > .description {
+    width: 550px;
+    
+}
+
+.about-me > img {
+    width: 430px;
+    height: 400px;
+    border-radius: 0.05%;
+    margin-top: 4%;
+    border-radius: 70%;
+}
+
+.nav-menu2 {
+    position: absolute;
+    left: 77%;
+}
+
+
+@media screen and (max-width: 500px) {
+    .navbar-container3 {
+        position: relative;
+        margin-right: 90%;
+        margin-bottom: 5%;
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,238 @@
+body {
+    background-color: #ffffff;
+}
+
+.main-exp h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #606470;
+    font-family: Big Caslon;
+    font-weight: 520;
+}
+
+
+
+.main-exp > h3 {
+    display: flex;
+}
+
+h3 {
+    margin-left: 2%;
+    font-family: 'Taviraj', serif;
+    color: #606470;
+}
+
+
+
+.header-title {
+    border-radius: 5px;
+    box-shadow: #d8d7d7 0px 2px 8px 0px;
+    padding: 0.5%;
+    background-color: white;
+}
+
+
+.technologies > img{
+    width: 40px;
+    margin: 0.67%;
+    filter: invert(41%) sepia(6%) saturate(838%) hue-rotate(188deg) brightness(89%) contrast(82%);
+}
+
+.technologies {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.technologies > h2 {
+    margin-left: 38%;
+    margin-bottom: 5%;
+    color: #606470;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1%;
+}
+
+.second > h2 {
+    margin-left: 7px;
+    color: black;
+    font-family: Big Caslon;
+    font-weight: 450;
+}
+
+.second > img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+h2 {
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Aldhabi;
+    color: black;
+}
+
+h4 {
+    font-weight: 250;
+    color: #606470;
+}
+
+.second {
+    align-items: center;
+    display: flex;
+}
+
+.experience {
+    font-size: 18px;
+}
+
+.main-exp {
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    margin: auto;
+}
+
+.experience-box, .education-box, .technologies {
+    display: inline-block;
+    width: 70%;
+    height: 50%;
+    min-width: auto;
+    margin-left: 55%;
+}
+
+.header-title {
+    margin-top: 20px;
+    
+}
+
+.experience {
+    font-size: 1.15rem;
+}
+
+@media screen and (max-width: 500px) {
+    .main-exp h1 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h3{
+        font-size: 9.5px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    h4 {
+        font-size: 7.5px;
+        margin-right: 1%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h2 {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .experience-box, 
+    .education-box, 
+    .technologies {
+        display: inline-block;
+        font-size: 10px;
+        margin-left: 10%;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .nav-menu4  .link {
+        font-size: 12px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    .technologies > img {
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .second > img {
+        width: 16px;
+        height: 15px;
+        margin-left: 1%;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .navbar-container4 {
+        position: relative;
+        margin-right: 80%;
+        margin-bottom: 5%;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    ul > li {
+        font-size: 9.8px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .second > h2 {
+        font-size: 10px;
+    }
+}
+
+
+.cer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+li {
+    font-family: 'Taviraj', serif;
+    font-size: 16.5px;
+    color: #606470;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+
+.experience-box {
+    margin-top: 10%;
+}
+
+
+
+
+.nav-menu4 {
+    position: absolute;
+    left: 80%;
+}
+  
+
+
+
+
+
+
+ 
