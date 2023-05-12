@@ -16,6 +16,7 @@ const NavUnlisted = styled.ul`
 const StyledLink = styled(Link)`
   text-decoration: none;  
   font-size: 16px;
+  font-family: Georgia, serif;
 `
 
 const Education = () => {
@@ -40,7 +41,7 @@ const Education = () => {
                     <br/>
                         <div className="description">
                         <p>
-                            Passionate Software Engineer thrilled to embark on my career in the industry after recently graduating from Ada Developers Academy with a certificate in Full Stack Web Development and Computer Science.
+                            I am a passionate Software Engineer thrilled to embark on my career in the industry after recently graduating from Ada Developers Academy with a certificate in Full Stack Web Development and Computer Science Fundamentals.
                         </p>
                         <p>.</p>
                         <p>
@@ -48,7 +49,7 @@ const Education = () => {
                         </p>
                         <p>.</p>
                         <p>
-                            As an Ada student, and Amazon intern gained valuable real-world experience, which has allowed me to develop a keen understanding of how to approach and solve challenging problems.
+                            As an Ada student, and Amazon intern, I gained valuable real-world experience, which has allowed me to develop a keen understanding of how to approach and solve challenging problems.
                         </p>
                         <div className="email"><img src={mail}></img><p>Contact: doinyco@gmail.com</p></div>
                     </div>

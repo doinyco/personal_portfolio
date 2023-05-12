@@ -20,17 +20,19 @@ const NavUnlisted = styled.ul`
 const StyledLink = styled(Link)`
   text-decoration: none;  
   font-size: 16px;
+  font-family: Georgia, serif;
 `
 
 const Projects = () => {
     return (
         <div className="main-projects">
-            <div className="navbar-container3">
-                <div className="nav-menu3">
+            <meta name='viewport' content='width=device-width, initial-scale=1.0'></meta>
+            <div className="navbar-container1">
+                <div className="nav-menu1">
                     <NavUnlisted>
-                        <div className="nav-i"><img alt="user" src={home}/><StyledLink className="link" to="/">HOME</StyledLink></div>
-                        <div className="nav-i"><img src={about}/><StyledLink className="link" to="/about">ABOUT</StyledLink></div>
-                        <div className="nav-i"><img src={experience}/><StyledLink className="link" to="/experience">EXPERIENCE</StyledLink></div>
+                        <div className="nav-i"><img className="img" alt="user" src={home}/><StyledLink className="link" to="/">HOME</StyledLink></div>
+                        <div className="nav-i"><img className="img" src={about}/><StyledLink className="link" to="/about">ABOUT</StyledLink></div>
+                        <div className="nav-i"><img className="img" src={experience}/><StyledLink className="link" to="/experience">EXPERIENCE</StyledLink></div>
                     </NavUnlisted>
                 </div>
             </div>
@@ -38,15 +40,13 @@ const Projects = () => {
                 <div className="pr">
                     <img src={nextgym}/>
                     <h2>My next gym</h2>
-                    <p>Technologies: Python, Flask, PostgreSQL, React, HTML, CSS, JavaScript, Git, Postman, Google Maps API</p>
-                    
-                        <a className="demo" href="https://www.youtube.com/watch?v=VFmsh5oNHYA">Demo</a>
-                    
+                    <p>Tech stack: Python, Flask, PostgreSQL, React, HTML, CSS, JavaScript, Git, Postman, Google Maps API</p>
+                    <a className="capstone" href="https://www.youtube.com/watch?v=VFmsh5oNHYA" target="_blank">Demo</a>
                 </div>
                 <div className="pr">
                     <img src={board}/>
                     <h2>Inspiration Board</h2>
-                    <p>Technologies: Python, Flask, PostgreSQL, React, HTML, CSS, JavaScript, Git, Postman</p>
+                    <p>Tech stack: Python, Flask, PostgreSQL, React, HTML, CSS, JavaScript, Git, Postman</p>
                     <form action="https://github.com/fdang836/back-end-inspiration-board">
                         <button className="demo" type="submit">Github</button>
                     </form>
@@ -54,7 +54,7 @@ const Projects = () => {
                 <div className="pr">
                     <img src={weatherReport}/>
                     <h2>Weather Report</h2>
-                    <p>Technologies: React, HTML, CSS, JavaScript, Git, OpenWeather API, Postman</p>
+                    <p>Tech stack: React, HTML, CSS, JavaScript, Git, OpenWeather API, Postman</p>
                     <form action="https://github.com/doinyco/weather-report">
                         <button className="demo" type="submit">Github</button>
                     </form>
@@ -62,7 +62,7 @@ const Projects = () => {
                 <div className="pr">
                     <img src={chat}/>
                     <h2>Chatlog</h2>
-                    <p>Technologies: React, HTML, CSS, JavaScript, Git</p>
+                    <p>Tech stack: React, HTML, CSS, JavaScript, Git</p>
                     <form action="https://github.com/doinyco/react-chatlog">
                         <button className="demo" type="submit">Github</button>
                     </form>
@@ -70,7 +70,7 @@ const Projects = () => {
                 <div className="pr">
                     <img src={todo}/>
                     <h2>Task List API</h2>
-                    <p>Technologies: Python, Flask, PostgresSQL, Postman, React, HTML, CSS, JavaScript, Git</p>
+                    <p>Tech stack: Python, Flask, PostgresSQL, Postman, React, HTML, CSS, JavaScript, Git</p>
                     <form action="https://github.com/doinyco/task-list-api">
                         <button className="demo" type="submit">Github</button>
                     </form>
@@ -78,7 +78,7 @@ const Projects = () => {
                 <div className="pr">
                     <img src={wordgame}/>
                     <h2>JS Adagrams</h2>
-                    <p>Technologies: React, HTML, CSS, JavaScript, Git, Node.js</p>
+                    <p>Tech stack: React, HTML, CSS, JavaScript, Git, Node.js</p>
                     <form action="https://github.com/doinyco/js-adagrams">
                         <button className="demo" type="submit">Github</button>
                     </form>

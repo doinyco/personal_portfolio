@@ -17,8 +17,6 @@
     left: 38%;   
 }
 
-
-
 .pr {
     display: flex;
     flex-direction: column;
@@ -30,8 +28,6 @@
     margin-left: 10px;
     background-color: white;
 }
-
-
 
 
 .pr > img {
@@ -59,6 +55,8 @@
     }
 }
 
+
+
 .pr > p {
     font-family: Big Caslon;
     font-size: 15px;
@@ -69,30 +67,44 @@
     
 }
 
-
-
-
-.demo{
-    margin-left: 40%;
+.pr > a{
+    padding: 0.8%;
     text-decoration: none;
+    color:#b7b7b7;
+    background: #fff;
+    outline:none;
+    border: 2px solid #b7b7b7;
+    text-align: center;
+    height: 30px;
+    width: 75px;
+    margin-left: 38%;
+    margin-bottom: 20px;
+    border-radius:40px;
+    letter-spacing:1px;
+    text-shadow:0;
+    font-size: 15px;
 }
 
-
-@media screen and (max-width: 500px) {
-    .main-projects > .link {
-        font-size: 14px;
-    }
+.pr>a:hover{
+    color:white;
+    background: #b7b7b7;
 }
-    
-.main-projects > .navbar-container3 {
+
+.demo:hover{
+    color:white;
+    background: #b7b7b7;
+}
+
+   
+.main-projects > .navbar-container2 {
     display: flex;
     position: absolute;
     left: 79%;
 }
 
 
-
 .demo {
+    margin-left: 37%;
     margin-bottom: 20px;
     outline:none;
     height: 30px;
@@ -109,7 +121,6 @@
 
 }
 
-
 .demo:hover{
     color:white;
     background: #b7b7b7;
@@ -117,81 +128,91 @@
 
 @media screen and (max-width: 500px) {
     .pr .demo{
-        width: 45px;
-        height: 18px;
-        font-size: 9px;
+        width: 55px;
+        height: 23px;
+        font-size: 11px;
         text-align: center;
         border: 1px solid #b7b7b7;
         margin-bottom: 2%;
+        margin-left: 70%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .pr .demo:hover{
+        color:white;
+        background: #b7b7b7;
     }
 }
 
+@media screen and (max-width: 500px) {
+    .pr a:hover{
+        color:white;
+        background: #b7b7b7;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .pr a{
+        width: 47px;
+        height: 15px;
+        font-size: 11.5px;
+        text-align: center;
+        border: 1px solid #b7b7b7;
+        margin-bottom: 2%;
+        margin-left: 38%;
+        padding: 1.4%;
+    }
+}
 
 .main-projects > .link:hover {
     color:#2e79ba;
 }
 
 
-
-@media screen and (max-width: 500px) {
-    .nav-menu3 .link {
-        font-size: 12px;
-    }
-}
-
-
-
-@media screen and (max-width: 500px) {
-    .main-projects .nav-menu3{
-        position: relative;
-        margin-left: 10%;
-    }
-}
-
-
-
-
 @media screen and (max-width: 500px) {
     .pr {
-        width: 230px;
-        height: 190px;
+        display: flex;
+        width: 265px;
+        height: 215px;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .projects-wrapper {
+    .main-projects .projects-wrapper {
+        margin-top: 40%;
+        display: flex;
         width: auto;
         height: auto;
-        margin-top: 8%;
-        display: flexbox;
-        position: relative;
-        overflow: auto;
-        padding: 0.01px;
-        row-gap: 1px;
-        margin-right: 2%; 
     }
 }
+
 
 @media screen and (max-width: 500px) {
     .pr img {
-        width: 230px;
+        width: 265px;
         height: 100px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .pr h2 {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .pr p {
-        font-size: 8px;
+        font-size: 10px;
         font-family: Big Caslon;
     }
 }
 
+@media screen and (max-width: 500px) {
+    .navbar-container2 {
+        position: relative;
+        margin-bottom: 5%;
+    }
+}
 
 .projects-wrapper {
     width: auto;
@@ -206,5 +227,8 @@
     row-gap: 30px;
     left: 38%;   
 }
+
+
+
 
 

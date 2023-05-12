@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;300&family=Dancing+Script&family=Montserrat:ital,wght@1,100&family=Old+Standard+TT:ital@1&family=Taviraj:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unna:ital@1&display=swap');
+
 
 .main-about {
     display: flex;
@@ -17,7 +19,7 @@
 }
 
 .description > p {
-    font-size: 18px;
+    font-size: 19px;
     font-family: 'Taviraj', serif;   
 }
 
@@ -26,11 +28,11 @@
 .personal-info > h1 {
     font-weight: 500;
     font-size: 25px;
+    font-family: Georgia, serif;
 }
 .personal-info {
     display: flexbox;
-    
-    margin-left: 10%;
+    margin-left: 9%;
 }
 
 .line{
@@ -60,21 +62,22 @@
 
 .email > p {
     color: #606470;
-    font-family: cursive;
-    margin-top: 1.6%;
+    font-family: 'Unna', serif;
+    margin-top: 2.2%;
+    font-size: 18px;
 }
 
 
 .personal-info > .description {
-    width: 550px;
+    width: 800px;
     
 }
 
 .about-me > img {
-    width: 430px;
-    height: 400px;
+    width: 450px;
+    height: 420px;
     border-radius: 0.05%;
-    margin-top: 4%;
+    margin-top: 7%;
     border-radius: 70%;
 }
 
@@ -85,14 +88,98 @@
 
 
 @media screen and (max-width: 500px) {
-    .navbar-container3 {
+    .navbar-container2 {
         position: relative;
-        margin-right: 90%;
         margin-bottom: 5%;
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav-menu2  .link {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main-about {
+        display: flexbox;
     }
 }
 
 
+@media screen and (max-width: 500px) { 
+    .about-me > img {
+        width: 170px;
+        height: 140px;
+        margin-left: 20%;
+    }
+
+}
+
+@media screen and (max-width: 500px) { 
+    .personal-info > .description {
+        width: 290px; 
+    } 
+
+}
+
+@media screen and (max-width: 500px) {
+    .personal-info > h1 {
+        margin-top: 10%; 
+        font-weight: 500;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .personal-info {
+        display: flexbox;
+        margin-left: 3%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .line{
+        width: 13px;
+        border-bottom: 1px solid black;
+        position: absolute;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .description > p {
+        font-size: 12px;
+        font-family: 'Taviraj', serif;  
+        margin-right: 10%; 
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .about-me {
+        display: grid;
+        position: relative;
+        
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .email > img {
+       
+        width: 12px;
+        height: 13px; 
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .email > p {
+        font-size: 12px;
+    }
+}
 
 
 

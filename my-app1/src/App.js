@@ -18,6 +18,7 @@ const NavUnlisted = styled.ul`
 const StyledLink = styled(Link)`
   text-decoration: none;  
   font-size: 16px;
+  font-family: Georgia, serif;
 `
 
 
@@ -45,7 +46,7 @@ function App() {
         <div className="personal">
           <div className="me">
             <h1>Hello, <br/>I'm Doina.</h1>
-            <p>A Fullstack Software Developer with a passion for building dynamic and responsive web applications ✨</p>
+            <p>A Fullstack Software Engineer with a passion for building dynamic and responsive web applications ✨</p>
           </div>
           <img src={doina}/>
         </div>

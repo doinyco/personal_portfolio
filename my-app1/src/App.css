@@ -17,10 +17,10 @@ html {
 
 .intro > h2 {
   font-family: URW Chancery L, cursive;
-  letter-spacing: -12px;
-  font-size: 45px;
+  letter-spacing: -14px;
+  font-size: 48px;
   color: #6acafc;
-  font-weight: 300;
+  font-weight: 200;
   margin: 0px;
   padding: 0px;
 }
@@ -57,6 +57,7 @@ html {
   font-weight: 400;
   color: black;
 }
+
 .me > p {
   font-family: Big Caslon;
   color: #929aab;
@@ -145,7 +146,7 @@ footer {
   font-size: 13px;
   text-align: center;
   left: 64%;
-  margin-top: 26%;
+  margin-top: 24.2%;
   color: #b7b7b7;
 }
 
@@ -276,6 +277,194 @@ a > img:hover {
 .nav-i > img:hover{
   color:#00bbf0;
 }
+
+
+@media screen and (max-width: 500px) {
+  .navbar-container1 {
+      position: relative;
+      margin-bottom: 5%;
+      left: 13.5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav-menu1  .link {
+      font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro > h2 {
+    margin-left: 6%;
+    letter-spacing: -8px;
+    font-size: 27px;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .personal {
+    display: grid;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .me > h1 {
+    font-size: 35px;
+    text-align: left;
+    font-family: Big Caslon;
+    margin-top: 25%;
+    margin-bottom: 15%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .me > p {
+    font-size: 19px;
+    font-weight: lighter;
+    width: 270px;
+    height: 50px;
+    margin-bottom: 15%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .personal > img {
+    width: 150px;
+    height: 130px;
+    border: double 1.8px transparent;
+    border-radius: 50%;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .social {
+    display: flex;
+    position: relative;
+    gap: 15%;
+    margin-bottom: 15%;
+    
+  }
+  }
+
+@media screen and (max-width: 500px) {
+  .social > a {
+    margin-left: 20%;
+    
+  }
+}
+@media screen and (max-width: 500px) {
+  form {
+    margin-right: 45%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  a > img {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  a > img:hover {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+.button {
+  display: flex;
+  position: absolute;
+  width: 60px;
+  height: 25px;
+  align-items: center;
+  font-size: 10px;
+  cursor: pointer;
+  padding: 0.4em 1em 0.5em 1em;
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 19em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  transition: all 200ms ease-in-out;
+}
+}
+
+@media screen and (max-width: 500px) {
+    .button:hover {
+      width: 68px;
+      height: 32px;
+      font-size: 12px;
+      align-items: center;
+      display: flex;
+      position: absolute;
+    }
+}
+
+@media screen and (max-width: 500px) {
+footer {
+  font-size: 9px;
+  text-align: center;
+  left: 44%;
+  margin-top: 116.9%;
+}
+}
+
+@media screen and (max-width: 500px) {
+#footer {
+  position: relative;
+  max-width: 300px;
+}
+}
+
+@media screen and (max-width: 500px) {
+#footer:before{
+  content:" ";
+  display: block;
+  height: 0.15px;
+  width: 43px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #b7b7b7;
+}
+}
+
+@media screen and (max-width: 500px) {
+#footer:after{
+  content:" ";
+  height: 0.15px;
+  width: 43px;
+  background: #b7b7b7;
+  display: block;
+  position: absolute;
+  top: 50%;
+  
+}
+}
+
+
+@media screen and (max-width: 500px) {
+  body {
+    display: flexbox;
+    margin-right: 30%;
+  }
+  }
+
+
+
+
+
+
 
 
 
