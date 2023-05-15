@@ -21,7 +21,6 @@ const StyledLink = styled(Link)`
   font-family: Georgia, serif;
 `
 
-
 function App() {
   return (
     <html>
@@ -36,9 +35,18 @@ function App() {
           <div className="navbar-container1">
             <div className="nav-menu1">
               <NavUnlisted>
-                <div className="nav-i"><img alt="user" src={about}/><StyledLink className="link" to="/about">ABOUT</StyledLink></div>
-                <div className="nav-i"><img src={projects}/><StyledLink className="link" to="/projects">PROJECTS</StyledLink></div>
-                <div className="nav-i"><img src={experience}/><StyledLink className="link" to="/experience">EXPERIENCE</StyledLink></div>
+                <div className="nav-i">
+                  <img alt="user" src={about}/>
+                  <StyledLink className="link" to="/about">ABOUT</StyledLink>
+                </div>
+                <div className="nav-i">
+                  <img src={projects}/>
+                  <StyledLink className="link" to="/projects">PROJECTS</StyledLink>
+                </div>
+                <div className="nav-i">
+                  <img src={experience}/>
+                  <StyledLink className="link" to="/experience">EXPERIENCE</StyledLink>
+                </div>
               </NavUnlisted>
             </div>
           </div>

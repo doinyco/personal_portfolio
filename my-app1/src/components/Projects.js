@@ -27,12 +27,21 @@ const Projects = () => {
     return (
         <div className="main-projects">
             <meta name='viewport' content='width=device-width, initial-scale=1.0'></meta>
-            <div className="navbar-container1">
-                <div className="nav-menu1">
+            <div className="navbar-container2">
+                <div className="nav-menu2">
                     <NavUnlisted>
-                        <div className="nav-i"><img className="img" alt="user" src={home}/><StyledLink className="link" to="/">HOME</StyledLink></div>
-                        <div className="nav-i"><img className="img" src={about}/><StyledLink className="link" to="/about">ABOUT</StyledLink></div>
-                        <div className="nav-i"><img className="img" src={experience}/><StyledLink className="link" to="/experience">EXPERIENCE</StyledLink></div>
+                        <div className="nav-i">
+                            <img className="img" alt="user" src={home}/>
+                            <StyledLink className="link" to="/">HOME</StyledLink>
+                        </div>
+                        <div className="nav-i">
+                            <img className="img" src={about}/>
+                            <StyledLink className="link" to="/about">ABOUT</StyledLink>
+                        </div>
+                        <div className="nav-i">
+                            <img className="img" src={experience}/>
+                            <StyledLink className="link" to="/experience">EXPERIENCE</StyledLink>
+                        </div>
                     </NavUnlisted>
                 </div>
             </div>

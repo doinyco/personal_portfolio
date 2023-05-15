@@ -30,21 +30,16 @@ html {
   padding: 0px;
 }
 
-
-
 .main-app > .intro {
   margin-left: 1%;
   font-weight: lighter;
 }
-
-
 
 .personal {
   display: flex;
   margin-top: 25%;
   text-align: center;
 }
-
 
 .me {
   float: left;
@@ -67,10 +62,10 @@ html {
   width: 550px;
   height: 90px;
 }
+
 .me {
   display: flexbox;
 }
-
 
 .personal > img {
   width: 260px;
@@ -82,7 +77,6 @@ html {
   background-clip: padding-box, border-box;
 }
 
-
 .container {
   display: flex;
 }
@@ -90,7 +84,6 @@ html {
 .personal, .social {
   margin-left: 50%;
 }
-
 
 .button {
   display: flex;
@@ -184,8 +177,6 @@ footer {
   gap: 10%;
 }
 
-
-
 a > img {
   position: absolute;
   width: 36px;
@@ -236,8 +227,6 @@ a > img:hover {
   color:#00bbf0;
 }
 
-
-
 .link::after {
   content: '';
   position: absolute;
@@ -255,8 +244,6 @@ a > img:hover {
   transform: scaleX(1);
   transform-origin: bottom center;
 }
-
-
 
 .intro {
   display: inline;
@@ -277,7 +264,6 @@ a > img:hover {
 .nav-i > img:hover{
   color:#00bbf0;
 }
-
 
 @media screen and (max-width: 500px) {
   .navbar-container1 {
@@ -348,16 +334,15 @@ a > img:hover {
     position: relative;
     gap: 15%;
     margin-bottom: 15%;
-    
   }
-  }
+}
 
 @media screen and (max-width: 500px) {
   .social > a {
     margin-left: 20%;
-    
   }
 }
+
 @media screen and (max-width: 500px) {
   form {
     margin-right: 45%;
@@ -379,24 +364,24 @@ a > img:hover {
 }
 
 @media screen and (max-width: 500px) {
-.button {
-  display: flex;
-  position: absolute;
-  width: 60px;
-  height: 25px;
-  align-items: center;
-  font-size: 10px;
-  cursor: pointer;
-  padding: 0.4em 1em 0.5em 1em;
-  border: none;
-  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
-  letter-spacing: 0.05em;
-  border-radius: 19em;
-  cursor: pointer;
-  user-select: none;
-  -webkit-user-select: none;
-  transition: all 200ms ease-in-out;
-}
+  .button {
+    display: flex;
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    align-items: center;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 0.4em 1em 0.5em 1em;
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+    letter-spacing: 0.05em;
+    border-radius: 19em;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: all 200ms ease-in-out;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -411,54 +396,52 @@ a > img:hover {
 }
 
 @media screen and (max-width: 500px) {
-footer {
-  font-size: 9px;
-  text-align: center;
-  left: 44%;
-  margin-top: 116.9%;
-}
-}
-
-@media screen and (max-width: 500px) {
-#footer {
-  position: relative;
-  max-width: 300px;
-}
+  footer {
+    font-size: 9px;
+    text-align: center;
+    left: 44%;
+    margin-top: 116.9%;
+  }
 }
 
 @media screen and (max-width: 500px) {
-#footer:before{
-  content:" ";
-  display: block;
-  height: 0.15px;
-  width: 43px;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  background: #b7b7b7;
-}
+  #footer {
+    position: relative;
+    max-width: 300px;
+  }
 }
 
 @media screen and (max-width: 500px) {
-#footer:after{
-  content:" ";
-  height: 0.15px;
-  width: 43px;
-  background: #b7b7b7;
-  display: block;
-  position: absolute;
-  top: 50%;
-  
-}
+  #footer:before{
+    content:" ";
+    display: block;
+    height: 0.15px;
+    width: 43px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #b7b7b7;
+  }
 }
 
+@media screen and (max-width: 500px) {
+  #footer:after{
+    content:" ";
+    height: 0.15px;
+    width: 43px;
+    background: #b7b7b7;
+    display: block;
+    position: absolute;
+    top: 50%;
+  }
+}
 
 @media screen and (max-width: 500px) {
   body {
     display: flexbox;
     margin-right: 30%;
   }
-  }
+}
 
 
 

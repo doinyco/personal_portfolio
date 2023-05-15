@@ -22,7 +22,7 @@ import spark from "/Users/doinacolun/Desktop/personal_portfolio/my-app1/src/imag
 import about from "/Users/doinacolun/Desktop/personal_portfolio/my-app1/src/images/about.svg";
 import projects from "/Users/doinacolun/Desktop/personal_portfolio/my-app1/src/images/projects.svg";
 import home from "/Users/doinacolun/Desktop/personal_portfolio/my-app1/src/images/home.svg";
-import youtube from "/Users/doinacolun/Desktop/personal_portfolio/my-app1/src/images/youtube.svg";
+
 
 const NavUnlisted = styled.ul`
   text-decoration: none;
@@ -53,7 +53,7 @@ const Experience = () => {
                     </div>
                     <div className="experience-box">
                         <h1 className="title">Experience</h1>
-                        <div className="header-title">
+                        <div className="experience">
                             <div className="first">
                                 <div className="second">
                                     <img src={amazon}/>
@@ -63,20 +63,30 @@ const Experience = () => {
                             </div>
                             <h3>Software Engineering Intern</h3>
                             <ul>
-                                <li>Feature Generation and Migration Project: Contributed to the development of causal machine learning systems for financial investment forecasting using big data processing technologies such as Spark on AWS cloud services platform</li>
-                                <li>Migrated features from Apache Pig to Scala Spark, resulting in improved testability and a higher quality bar for the system</li>
-                                <li>Led the implementation, testing, and validation of features in Scala Spark, 
-                                demonstrating expertise in designing, developing, and shipping software solutions on AWS cloud</li>
-                                <li>Optimized feature generation run time by 40%, improving the overall efficiency of the system</li>
-                                <li>Gained valuable experience in data processing and analysis, 
-                                highlighting expertise in working with big data processing technologies and cloud services platforms</li>
-                                <li>Tech stack: Scala, Java, Spark, Unit testing with Mockito, AWS (EMR, S3, EC2)</li>
+                                <li>
+                                    Feature Generation and Migration Project: Contributed to the development of causal machine learning systems for financial investment forecasting using big data processing technologies such as Spark on AWS cloud services platform
+                                </li>
+                                <li>
+                                    Migrated features from Apache Pig to Scala Spark, resulting in improved testability and a higher quality bar for the system
+                                </li>
+                                <li>
+                                    Led the implementation, testing, and validation of features in Scala Spark, demonstrating expertise in designing, developing, and shipping software solutions on AWS cloud
+                                </li>
+                                <li>
+                                    Optimized feature generation run time by 40%, improving the overall efficiency of the system
+                                </li>
+                                <li>
+                                    Gained valuable experience in data processing and analysis, highlighting expertise in working with big data processing technologies and cloud services platforms
+                                </li>
+                                <li>
+                                    Tech stack: Scala, Java, Spark, Unit testing with Mockito, AWS (EMR, S3, EC2)
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div className="education-box">
                         <h1 className="title">Education</h1>
-                        <div className="header-title">
+                        <div className="experience">
                             <div className="first">
                                 <div className="second">
                                     <img src={ada}/>
@@ -86,12 +96,15 @@ const Experience = () => {
                             </div>
                             <h3>Full-stack Software Engineering Student</h3>
                             <ul>
-                                <li>Capstone Project - My Next Gym: a fullstack app which provide users an intuitive and easy-to-use interface for searching 
-                                and discovering gyms, using React framework and Google Maps API</li>
-                                <li>Tech stack: Python, Javascript, HTML, CSS, Flask, React, ProgreSQL, Heroku, Git, Github pages, Postman, Unit testing with Pytest</li>
+                                <li>
+                                    Capstone Project - My Next Gym: a fullstack app which provide users an intuitive and easy-to-use interface for searching and discovering gyms, using React framework and Google Maps API
+                                </li>
+                                <li>
+                                    Tech stack: Python, Javascript, HTML, CSS, Flask, React, ProgreSQL, Heroku, Git, Github pages, Postman, Unit testing with Pytest
+                                </li>
                             </ul>
                         </div>
-                        <div className="header-title">
+                        <div className="experience">
                             <div className="first">
                                 <div className="second">
                                     <img src={LWtech}/>
@@ -100,11 +113,13 @@ const Experience = () => {
                                 <h4>09/2019 - 05/2021</h4>
                             </div>
                             <h3>Student</h3>
-                            <ul className="experience">
-                                <li>Classes in Math and Communication</li>
+                            <ul>
+                                <li>
+                                    Classes in Math and Communication
+                                </li>
                             </ul>
                         </div>
-                        <div className="header-title">
+                        <div className="experience">
                             <div className="first">
                                 <div className="second">
                                     <img src={USM}/>

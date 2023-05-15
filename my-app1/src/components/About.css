@@ -10,7 +10,6 @@
     left: 37%;
 }
 
-
 .about-me {
     display: flex;
     position: relative;
@@ -22,8 +21,6 @@
     font-size: 19px;
     font-family: 'Taviraj', serif;   
 }
-
-
 
 .personal-info > h1 {
     font-weight: 500;
@@ -40,7 +37,6 @@
     border-bottom: 2.5px solid black;
     position: absolute;
 }
-
 
 .main-about > .navbar-container {
     display: flex;
@@ -67,10 +63,8 @@
     font-size: 18px;
 }
 
-
 .personal-info > .description {
-    width: 800px;
-    
+    width: 800px;  
 }
 
 .about-me > img {
@@ -85,7 +79,6 @@
     position: absolute;
     left: 77%;
 }
-
 
 @media screen and (max-width: 500px) {
     .navbar-container2 {
@@ -107,21 +100,18 @@
     }
 }
 
-
 @media screen and (max-width: 500px) { 
     .about-me > img {
         width: 170px;
         height: 140px;
         margin-left: 20%;
     }
-
 }
 
 @media screen and (max-width: 500px) { 
     .personal-info > .description {
         width: 290px; 
     } 
-
 }
 
 @media screen and (max-width: 500px) {
@@ -161,15 +151,13 @@
 @media screen and (max-width: 500px) {
     .about-me {
         display: grid;
-        position: relative;
-        
+        position: relative;  
     }
 }
 
 
 @media screen and (max-width: 500px) {
     .email > img {
-       
         width: 12px;
         height: 13px; 
     }
