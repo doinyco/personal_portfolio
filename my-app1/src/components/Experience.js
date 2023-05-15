@@ -45,9 +45,9 @@ const Experience = () => {
                     <div className="navbar-container4">
                         <div className="nav-menu4">
                             <NavUnlisted>
-                                <div className="nav-i"><img alt="user" src={home}/><StyledLink className="link" to="/">HOME</StyledLink></div>
-                                <div className="nav-i"><img src={about}/><StyledLink className="link" to="/about">ABOUT</StyledLink></div>
-                                <div className="nav-i"><img src={projects}/><StyledLink className="link" to="/projects">PROJECTS</StyledLink></div>
+                                <div className="nav-i"><img alt="user" src={home}/><StyledLink className="link" to="/personal_portfolio">HOME</StyledLink></div>
+                                <div className="nav-i"><img src={about}/><StyledLink className="link" to="/personal_portfolio/about">ABOUT</StyledLink></div>
+                                <div className="nav-i"><img src={projects}/><StyledLink className="link" to="/personal_portfolio/projects">PROJECTS</StyledLink></div>
                             </NavUnlisted>
                         </div>
                     </div>

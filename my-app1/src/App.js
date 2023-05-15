@@ -37,15 +37,15 @@ function App() {
               <NavUnlisted>
                 <div className="nav-i">
                   <img alt="user" src={about}/>
-                  <StyledLink className="link" to="/about">ABOUT</StyledLink>
+                  <StyledLink className="link" to="/personal_portfolio/about">ABOUT</StyledLink>
                 </div>
                 <div className="nav-i">
                   <img src={projects}/>
-                  <StyledLink className="link" to="/projects">PROJECTS</StyledLink>
+                  <StyledLink className="link" to="/personal_portfolio/projects">PROJECTS</StyledLink>
                 </div>
                 <div className="nav-i">
                   <img src={experience}/>
-                  <StyledLink className="link" to="/experience">EXPERIENCE</StyledLink>
+                  <StyledLink className="link" to="/personal_portfolio/experience">EXPERIENCE</StyledLink>
                 </div>
               </NavUnlisted>
             </div>

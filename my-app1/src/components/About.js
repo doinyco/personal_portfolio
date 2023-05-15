@@ -26,9 +26,9 @@ const Education = () => {
             <div className="navbar-container2"> 
                 <div className="nav-menu2">
                     <NavUnlisted>
-                        <div className="nav-i"><img alt="user" src={home}/><StyledLink className="link" to="/">HOME</StyledLink></div>
-                        <div className="nav-i"><img src={projects}/><StyledLink className="link" to="/projects">PROJECTS</StyledLink></div>
-                        <div className="nav-i"><img src={experience}/><StyledLink className="link" to="/experience">EXPERIENCE</StyledLink></div>
+                        <div className="nav-i"><img alt="user" src={home}/><StyledLink className="link" to="/personal_portfolio">HOME</StyledLink></div>
+                        <div className="nav-i"><img src={projects}/><StyledLink className="link" to="/personal_portfolio/projects">PROJECTS</StyledLink></div>
+                        <div className="nav-i"><img src={experience}/><StyledLink className="link" to="/personal_portfolio/experience">EXPERIENCE</StyledLink></div>
                 
                     </NavUnlisted>
                 </div>

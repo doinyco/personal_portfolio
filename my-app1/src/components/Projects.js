@@ -32,15 +32,15 @@ const Projects = () => {
                     <NavUnlisted>
                         <div className="nav-i">
                             <img className="img" alt="user" src={home}/>
-                            <StyledLink className="link" to="/">HOME</StyledLink>
+                            <StyledLink className="link" to="/personal_portfolio">HOME</StyledLink>
                         </div>
                         <div className="nav-i">
                             <img className="img" src={about}/>
-                            <StyledLink className="link" to="/about">ABOUT</StyledLink>
+                            <StyledLink className="link" to="/personal_portfolio/about">ABOUT</StyledLink>
                         </div>
                         <div className="nav-i">
                             <img className="img" src={experience}/>
-                            <StyledLink className="link" to="/experience">EXPERIENCE</StyledLink>
+                            <StyledLink className="link" to="/personal_portfolio/experience">EXPERIENCE</StyledLink>
                         </div>
                     </NavUnlisted>
                 </div>
