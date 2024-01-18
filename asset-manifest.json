@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personal_portfolio/static/css/main.a3288786.css",
+    "main.css": "/personal_portfolio/static/css/main.d96965a2.css",
     "main.js": "/personal_portfolio/static/js/main.d7db169f.js",
     "static/js/787.334a4f77.chunk.js": "/personal_portfolio/static/js/787.334a4f77.chunk.js",
     "static/media/word-game.png": "/personal_portfolio/static/media/word-game.b73157ba8949025aeec1.png",
@@ -35,12 +35,12 @@
     "static/media/css3.svg": "/personal_portfolio/static/media/css3.ea75f710c9ba5df66e3298c14e8203e9.svg",
     "static/media/intellij.svg": "/personal_portfolio/static/media/intellij.cc8190387dcc33cbd654fccd3ee140d6.svg",
     "static/media/home.svg": "/personal_portfolio/static/media/home.35cfda7dbdb4106763ab8fa1f0731a37.svg",
-    "main.a3288786.css.map": "/personal_portfolio/static/css/main.a3288786.css.map",
+    "main.d96965a2.css.map": "/personal_portfolio/static/css/main.d96965a2.css.map",
     "main.d7db169f.js.map": "/personal_portfolio/static/js/main.d7db169f.js.map",
     "787.334a4f77.chunk.js.map": "/personal_portfolio/static/js/787.334a4f77.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3288786.css",
+    "static/css/main.d96965a2.css",
     "static/js/main.d7db169f.js"
   ]
 }
